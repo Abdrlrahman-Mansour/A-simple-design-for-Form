@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(#141e30, #243b55);
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0px 15px 25px;
+    border-radius: 10px;
+}
+
+.box h2 {
+    margin: 0 0 40px;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.user-box {
+    position: relative;
+}
+
+.user-box input {
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+
+    background: transparent;
+    outline: #141e30;
+
+}
+
+.user-box label {
+    color: #fff;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition-duration: 0.5s;
+    transition-property: all;
+    padding: 10px 0;
+
+}
+
+.user-box input:focus~label {
+
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+
+
+.pass-box input:focus~label {
+
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+.pass-box {
+    position: relative;
+}
+
+.pass-box input {
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+
+    background: transparent;
+    outline: #141e30;
+}
+
+.pass-box label {
+    color: #fff;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+    padding: 10px 0;
+
+}
+
+.box .btn {
+    margin-bottom: 30px;
+    left: 0;
+    bottom: 0;
+    padding: 5px 10px;
+    width: 100px;
+    position: relative;
+    color: #03e9f4;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 100px #03e9f4;
+}
