@@ -1,5 +1,8 @@
 body {
     background: linear-gradient(#141e30, #243b55);
+    -moz-background: linear-gradient(#141e30, #243b55);
+    -webkit-background: linear-gradient(#141e30, #243b55);
+
     font-family: sans-serif;
     margin: 0px;
     padding: 0px;
